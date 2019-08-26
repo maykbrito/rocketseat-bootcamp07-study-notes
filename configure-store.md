@@ -2,7 +2,7 @@
 
 Para usar dados do usuário durante todo o app, verificar permissões, pegar nome, id, é interessante usar o redux.
 
-$$*$$
+<p align="center">*</p>
 
 # Dependencies
 
@@ -10,7 +10,7 @@ $$*$$
 yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
 ``` 
 
-$$*$$
+<p align="center">*</p>
 
 # Folder Structure
   - src/
@@ -28,7 +28,7 @@ $$*$$
       - ReactotronConfig.js
     - App.js
 
-$$*$$
+<p align="center">*</p>
 
 **src/store/modules/auth/reducer.js**
 
@@ -42,7 +42,7 @@ export default function auth(state = INITIAL_STATE, action) {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/store/modules/auth/sagas.js**
 
@@ -52,7 +52,7 @@ import { all } from 'redux-saga/effects'
 export default all([])
 ```
 
-$$*$$
+<p align="center">*</p>
  
 **src/store/modules/rootReducer.js**
 
@@ -64,7 +64,7 @@ import auth from './auth/reducer';
 export default combineReducers({})
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/store/modules/rootSaga.js**
 
@@ -78,7 +78,7 @@ export default function* rootSaga() {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/store/modules/index.js**
 
@@ -104,7 +104,7 @@ sagaMiddleware.run(rootSaga)
 export default store
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/store/modules/createStore.js**
 
@@ -124,7 +124,7 @@ export default (reducers, middlewares) => {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/config/ReactotronConfig.js**
 
@@ -145,7 +145,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/App.js**
 

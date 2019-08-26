@@ -3,7 +3,7 @@
 Notification System
 
 
-$$*$$
+<p align="center">*</p>
 
 **Install local MongoDB**
 
@@ -11,7 +11,7 @@ $$*$$
 docker run --name nameofyournewmongodb -p 27017:27017 -d -t mongo
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **connect to db**
 
@@ -19,7 +19,7 @@ $$*$$
 yarn add mongoose
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **add mongo connection**
 ```js
@@ -31,11 +31,11 @@ mongoose.connect(
 )
 ```
 
-$$*$$
+<p align="center">*</p>
 
 To see logs:  `docker logs`
 
- $$*$$   
+ <p align="center">*</p>   
 
 # Starting
 
@@ -65,7 +65,7 @@ const NotificationSchema = new mongoose.Schema({
 export default mongoose.model('Notification', NotificationSchema)
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # Create a Notification
 
@@ -98,7 +98,7 @@ await Notification.create({
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # List and mark as read
 
@@ -114,7 +114,7 @@ routes.put('/notifications:id', NotificationController.update);
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/controllers/NotificationController.js**
 

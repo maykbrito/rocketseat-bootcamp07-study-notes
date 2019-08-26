@@ -2,7 +2,7 @@
 
 Add Eslint, Prettier and EditorConfig extensions on your VSCode. Then...
 
-$$*$$
+<p align="center">*</p>
 
 **settings.json**
 
@@ -23,7 +23,7 @@ $$*$$
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **.editorconfig**
 
@@ -38,7 +38,7 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # ESlint
 
@@ -49,7 +49,7 @@ rm -rf package-lock.json
 yarn
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **.eslintrc.js**
 
@@ -126,7 +126,7 @@ module.exports = {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 Use code bellow to eslint all files of your project
 
@@ -134,7 +134,7 @@ Use code bellow to eslint all files of your project
 yarn eslint --fix src --ext .js
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **.prettierrc**
 

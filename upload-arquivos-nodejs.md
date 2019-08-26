@@ -1,6 +1,6 @@
 # Upload Files with Nodejs
 
-$$*$$
+<p align="center">*</p>
 
 **Multer**
 
@@ -8,7 +8,7 @@ $$*$$
 yarn add multer
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/config/multer.js**
 
@@ -31,7 +31,7 @@ export default {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **create migration**
 
@@ -39,7 +39,7 @@ $$*$$
 yarn sequelize migration:create --name=create-files
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/database/migrations/create-files.js**
 
@@ -76,7 +76,7 @@ module.exports = {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **migrate database**
 
@@ -84,7 +84,7 @@ $$*$$
 yarn sequelize db:migrate
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/models/File**
 
@@ -116,7 +116,7 @@ class File extends Model {
 export default File;
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/controllers/FileController.js**
 
@@ -138,7 +138,7 @@ class FileController {
 export default new FileController();
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/routes.js**
 
@@ -154,7 +154,7 @@ routes.post("/files", upload.single("file"), FileController.store);
 //...
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **Create Relationship**
 
@@ -164,7 +164,7 @@ $$*$$
 yarn sequelize migration:create --name=add-avatar-field-to-users
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/database/migrations/add-avatar-field-to-users.js**
 
@@ -183,7 +183,7 @@ module.exports = {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/models/User.js**
 
@@ -197,7 +197,7 @@ class User extends Model {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/database/index.js**
 

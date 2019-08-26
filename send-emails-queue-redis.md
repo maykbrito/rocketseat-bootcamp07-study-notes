@@ -2,7 +2,7 @@
 
 Send emails with nodemailer and put in redis queue
 
-$$*$$
+<p align="center">*</p>
 
 # Nodemailer
 
@@ -10,7 +10,7 @@ $$*$$
 yarn add nodemailer
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/config/mail.js**
 
@@ -29,7 +29,7 @@ export default {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/lib/Mail.js**
 
@@ -60,7 +60,7 @@ class Mail {
 export default new Mail();
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # Templates
 
@@ -68,7 +68,7 @@ $$*$$
 yarn add express-handlebars nodemailer-express-handlebars 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/lib/Mail.js**
 
@@ -94,7 +94,7 @@ configureTemplates() {
 }
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/views/emails/layouts/default.hbs**
 
@@ -106,7 +106,7 @@ $$*$$
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/views/emails/partials/default.hbs**
 
@@ -116,7 +116,7 @@ $$*$$
 <em>Equipe GoBarber</em>
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/views/emails/cancellation.hbs**
 
@@ -134,7 +134,7 @@ $$*$$
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # Redis
 
@@ -142,7 +142,7 @@ $$*$$
 docker run --name newredisname -p 6379:6379 -d -t redis:alpine
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **Add bee queue**
 
@@ -150,7 +150,7 @@ $$*$$
 yarn add bee-queue
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/config/redis**
 
@@ -161,7 +161,7 @@ export default {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 With the file bellow we can start queue without main app
 
@@ -174,7 +174,7 @@ Queue.processQueue();
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/lib/Queue.js**
 
@@ -223,7 +223,7 @@ export default new Queue();
 
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/jobs/CancellationMail.js**
 
@@ -258,7 +258,7 @@ class CancellationMail {
 export default new CancellationMail();
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/app/controllers/AppointmentController.js**
 

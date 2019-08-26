@@ -3,13 +3,13 @@
 Configuring my dev enviroment following Rocketseat's Bootcamp tutorial
 
 
-$$*$$
+<p align="center">*</p>
 
 # VSCode
 
 My settings are stored in: `.config/Code/User/`.
 
-$$*$$
+<p align="center">*</p>
 
 # Tema e Fonte
 
@@ -20,7 +20,7 @@ $$*$$
 	- Goto github and search for this font
 	- Download and install in your system
 
-$$*$$
+<p align="center">*</p>
 
 # Extensions
 
@@ -31,7 +31,7 @@ $$*$$
 * prettier
 * rocketseat
 
-$$*$$
+<p align="center">*</p>
 
 # Terminal
 
@@ -42,7 +42,7 @@ $$*$$
 * Fonte: FiraCode
 	- Configure nas preferências do terminal
 
-$$*$$
+<p align="center">*</p>
 
 # Oh My Zsh
 	
@@ -65,7 +65,7 @@ Copy `./.zshrc`
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
 ```
 
-$$*$$
+<p align="center">*</p>
 
 # Chrome Extensions
 
@@ -73,7 +73,7 @@ $$*$$
 
 Search for React Developer Tools
 
-$$*$$
+<p align="center">*</p>
 
 # Tools
 

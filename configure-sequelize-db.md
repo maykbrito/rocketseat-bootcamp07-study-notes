@@ -17,7 +17,7 @@ yarn add sequelize-cli -D
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **.sequelizerc**
 
@@ -32,7 +32,7 @@ module.exports = {
 };
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **dotenv**
 
@@ -44,7 +44,7 @@ DB_USER=postgres
 DB_PASS=docker
 ```
 
-$$*$$
+<p align="center">*</p>
 
 **src/config/database.js**
 
