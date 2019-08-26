@@ -1,0 +1,27 @@
+{
+  "Console Log": {
+    "prefix": "mcl",
+    "body": ["console.log($1)"],
+    "description": "Console Log"
+  },
+  "Console Log Template": {
+    "prefix": "mtcl",
+    "body": ["console.log(`${$1}`)"],
+    "description": "Console Log Template"
+  },
+  "Arrow Function": {
+    "prefix": "marw",
+    "body": ["const $1:function = ($2) => {", "  $3", "}"],
+    "description": "Arrow Function"
+  },
+  "Inline Arrow Function": {
+    "prefix": "miarw",
+    "body": ["($1) => {", "  $3", "}"],
+    "description": "Inline Arrow Function"
+  },
+  "Named Function": {
+    "prefix": "mnfn",
+    "body": ["function $1:function ($2) {", "  $3", "}"],
+    "description": "Named Function"
+  }
+}
